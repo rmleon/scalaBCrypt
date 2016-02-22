@@ -17,9 +17,9 @@ How to Use:
 -----------
 ```scala
 
-// Generate the salt.  Can take log rounds (between 2 and 30, where 30 will be the hardest and will take a long time)
 import ft.crypt.bcrypt.BCrypt
 val plain = "YourPlainPassword"
+// Generate the salt.  Can take log rounds (between 2 and 30, where 30 will be the hardest and will take a long time)
 val salt = BCrypt.generateSalt
 val hashed = BCrypt.hashPassword(plain, salt)
 val passwordsMatch = BCrypt.checkPassword(plain, hashed)

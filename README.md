@@ -1,6 +1,8 @@
 Scala BCrypt
 ============
 
+[![Build Status](https://travis-ci.org/rmleon/scalaBCrypt.svg?branch=master)](https://travis-ci.org/rmleon/scalaBCrypt)
+
 Scala port of a Java BCrypt library.
 
 Goals:

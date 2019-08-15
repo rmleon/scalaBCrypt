@@ -1,7 +1,7 @@
 package ft.crypt.bcrypt
 
 import org.scalacheck.Gen
-import org.scalatest.prop.PropertyChecks
+import org.scalatestplus.scalacheck.{ ScalaCheckPropertyChecks => PropertyChecks }
 import org.scalatest.{ FlatSpec, MustMatchers, PrivateMethodTester }
 
 // Copyright (c) 2006 Damien Miller <djm@mindrot.org>

@@ -51,8 +51,7 @@ class BCryptSpec extends FlatSpec with PrivateMethodTester with PropertyChecks w
     ("~!@#$%^&*()      ~!@#$%^&*()PNBFRD", "$2a$08$Eq2r4G/76Wv39MzSX262hu", "$2a$08$Eq2r4G/76Wv39MzSX262huzPz612MZiYHVUJe/OcOql2jo4.9UxTW"),
     ("~!@#$%^&*()      ~!@#$%^&*()PNBFRD", "$2a$10$LgfYWkbzEvQ4JakH7rOvHe", "$2a$10$LgfYWkbzEvQ4JakH7rOvHe0y8pHKF9OaFgwUZ2q7W2FFZmZzJYlfS"),
     ("~!@#$%^&*()      ~!@#$%^&*()PNBFRD", "$2a$12$WApznUOJfkEGSmYRfnkrPO", "$2a$12$WApznUOJfkEGSmYRfnkrPOr466oFDCaj4b6HY3EXGvfxm43seyhgC"),
-    ("Hello", "$2a$04$Ple0QwxiRAJSclOT8yq4r.", "$2a$04$Ple0QwxiRAJSclOT8yq4r.SuhyoAaZtEOS64rgLQRsVaJJ3UnXT4u")
-  )
+    ("Hello", "$2a$04$Ple0QwxiRAJSclOT8yq4r.", "$2a$04$Ple0QwxiRAJSclOT8yq4r.SuhyoAaZtEOS64rgLQRsVaJJ3UnXT4u"))
 
   behavior of "BCrypt"
 
